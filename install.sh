@@ -115,8 +115,8 @@ installtask fuglu
 returnwait "ClamAV configuration"
 installtask clamav
 
-returnwait "Spamassassin configuration"
-installtask spamassassin
+returnwait "RSPAMd configuration"
+installtask rspamd
 
 returnwait "Webserver configuration"
 installtask webserver
